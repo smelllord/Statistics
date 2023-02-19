@@ -1,5 +1,5 @@
 import random
-class Model:
+class LinearFittingModel:
     def __init__(self, data, alpha):
         self.data = data #list of tuples consisting of x & y coordinates
         self.a0 = random.uniform(0,100) #random float from 1 to 100, the b in mx + b
